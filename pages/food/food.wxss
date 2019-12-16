@@ -1,0 +1,28 @@
+.content{
+  background: #F7F7F7;
+}
+.h2{
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+.list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.list .item{
+  width: 33.3%;
+  height: 120px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.list .item text{
+  font-size: 16px;
+  color: #666;
+}
+
+.list .item image{
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+}

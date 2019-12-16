@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/food/food",
+    "pages/index/index",
+    "pages/user/user",
+    "pages/shop/shop",
+    "pages/foodContent/foodContent"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ddd",
+    "navigationBarTitleText": "demo1",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color":"#666",
+    "backgroundColor":"#eee",
+    "selectedColor":"#r30",
+    "borderStyle":"white",
+    "position":"bottom",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首頁",
+        "iconPath":"static/images/home1.png",
+        "selectedIconPath":"static/images/home2.png"
+      },
+      {
+        "pagePath": "pages/food/food",
+        "text": "商品",
+        "iconPath": "static/images/news1.png",
+        "selectedIconPath": "static/images/news2.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "static/images/user1.png",
+        "selectedIconPath": "static/images/user2.png"
+      }
+    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
